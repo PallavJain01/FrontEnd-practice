@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
+// import { Button, Typography, Box, colors } from '@mui/material';
+// import { ArrowBackIosNew, ArrowForwardIos, Brightness1Outlined, Brightness1, ContentCopyOutlined, DiamondOutlined, PlayArrow } from '@mui/icons-material'
+// import { Twitter, Instagram, GitHub, Facebook, LocalPhone, Email, Business, Check, Google, Add, Copyright } from '@mui/icons-material';
+
+import {Content, LandingPage, Navbar, PricingTable} from './Components'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <section id="LandingPage">
+      <Navbar />
+      <LandingPage  />
+    </section>
+    <section id="Content">
+      <Content />
+    </section>
+    <section id="PricingTable">
+      <PricingTable />
+    </section>
+    </>
+  )
 }
 
-export default App;
+export default App

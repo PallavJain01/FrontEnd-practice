@@ -1,0 +1,53 @@
+.navbarItem {
+  color: #480b8d;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: color 0.4s linear;
+}
+
+.navbarItem:hover {
+  color: #9e9e9e;
+}
+
+.center{
+  position: relative;
+  left:50%;
+  top:auto;
+  transform:translateX(-50%)
+}
+.fitWidth{
+  width:fit-content
+}
+.fitHeight{
+  height:fit-content
+}
+
+#LandingPage{
+  height:100vh;
+  width:99.2vw;
+  background-image: url('../Assets/Backgrounds/bg-1.png');
+  background-size: cover;
+}
+
+#Navbar{
+  position: relative;
+  top:75px;
+  margin-bottom:200px
+}
+
+#Content{
+  height:50vh;
+  width:99.2vw;
+  background-image: url('../Assets/Backgrounds/bg-2.png');
+  background-size: cover;
+}
+
+#PricingTable{
+  height:100vh;
+  width:99.2vw;
+  background-image:url('../Assets/Backgrounds/bg-6.png');
+  background-size: cover;
+}
+
+/*!For debug only*/
+/* *{border:1px solid red} */
