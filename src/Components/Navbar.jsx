@@ -14,10 +14,10 @@ const Navbar = () => {
       direction='row'
       spacing={7.5}
       >
-        <span className="navbarItem">Home</span>
-        <span className="navbarItem">Features</span>
-        <span className="navbarItem">Pricing</span>
-        <span className="navbarItem">Blog</span>
+        <span className="navbarItem"><a href='#LandingPage'>Home</a></span>
+        <span className="navbarItem"><a href='#Features'>Features</a></span>
+        <span className="navbarItem"><a href='#PricingTable'>Pricing</a></span>
+        <span className="navbarItem"><a href='#Blog'>Blog</a></span>
       </Stack>
       </Typography>
     </div>

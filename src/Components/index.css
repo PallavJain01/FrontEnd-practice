@@ -13,7 +13,8 @@
   position: relative;
   left:50%;
   top:auto;
-  transform:translateX(-50%)
+  transform:translateX(-50%);
+  text-align: center;
 }
 .fitWidth{
   width:fit-content
@@ -47,6 +48,14 @@
   width:99.2vw;
   background-image:url('../Assets/Backgrounds/bg-6.png');
   background-size: cover;
+}
+
+a{
+  all:unset
+}
+
+a:hover{
+  cursor: pointer
 }
 
 /*!For debug only*/

@@ -11,13 +11,16 @@ const App = () => {
   return (
     <>
     <section id="LandingPage">
+    <a href='#LandingPage'> </a>
       <Navbar />
       <LandingPage  />
     </section>
     <section id="Content">
+    <a href='#Content'> </a>
       <Content />
     </section>
     <section id="PricingTable">
+    <a href='#PricingTable'> </a>
       <PricingTable />
     </section>
     </>

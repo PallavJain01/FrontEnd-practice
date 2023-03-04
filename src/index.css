@@ -4,5 +4,6 @@ body {
   background-color:rgb(50, 0, 150);
   z-index: -10;
   height:fit-content;
-  width:fit-content
+  width:fit-content;
 }
+*{scroll-behavior: smooth}
