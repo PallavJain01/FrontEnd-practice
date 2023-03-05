@@ -9,54 +9,127 @@
   color: #9e9e9e;
 }
 
-.center{
+.center {
   position: relative;
-  left:50%;
-  top:auto;
-  transform:translateX(-50%);
+  left: 50%;
+  top: auto;
+  transform: translateX(-50%);
   text-align: center;
 }
-.fitWidth{
-  width:fit-content
-}
-.fitHeight{
-  height:fit-content
+
+.fitWidth {
+  width: fit-content
 }
 
-#LandingPage{
-  height:100vh;
-  width:99.2vw;
-  background-image: url('../Assets/Backgrounds/bg-1.png');
+.fitHeight {
+  height: fit-content
+}
+
+.section {
+  height: 100vh;
+  width: 99.2vw;
   background-size: cover;
 }
 
-#Navbar{
+#Navbar {
   position: relative;
-  top:75px;
-  margin-bottom:200px
+  top: 75px;
+  margin-bottom: 200px
 }
 
-#Content{
-  height:50vh;
-  width:99.2vw;
+#LandingPage {
+  background-image: url('../Assets/Backgrounds/bg-1.png');
+}
+
+#Content {
   background-image: url('../Assets/Backgrounds/bg-2.png');
-  background-size: cover;
 }
 
-#PricingTable{
-  height:100vh;
-  width:99.2vw;
-  background-image:url('../Assets/Backgrounds/bg-6.png');
-  background-size: cover;
+#Features {
+  background-image: url('../Assets/Backgrounds/bg-3.png');
 }
 
-a{
-  all:unset
+#PricingTable {
+  background-image: url('../Assets/Backgrounds/bg-6.png');
+  background-color: rgb(75, 0, 175);
+
 }
 
-a:hover{
+#CallToAction {
+  background-image: url("../Assets/Backgrounds/bg-4.png")
+}
+
+#Form {
+  background-image: url("../Assets/Backgrounds/bg-2.png");
+}
+
+#Contact {
+  background-image: url("../Assets/Backgrounds/bg-5.png");
+}
+
+#Testimonial {
+  background-color: rgb(40, 0, 125)
+}
+
+#Footer {
+  width: 99.2vw;
+  height: 20vh;
+}
+
+.bg-works-1 {
+  background-image: url('../Assets/Images/works-1.png')
+}
+
+.bg-works-2 {
+  background-image: url("../Assets/Images/works-2.png")
+}
+
+.bg-works-3 {
+  background-image: url("../Assets/Images/works-3.png")
+}
+
+.bg-works-4 {
+  background-image: url("../Assets/Images/works-4.png")
+}
+
+.bg-team-1 {
+  background-image: url("../Assets/Images/works-1.png")
+}
+
+.bg-team-2 {
+  background-image: url("../Assets/Images/works-2.png")
+}
+
+.bg-team-3 {
+  background-image: url("../Assets/Images/works-3.png")
+}
+
+.bg-team-4 {
+  background-image: url("../Assets/Images/works-4.png")
+}
+
+.bg-team-5 {
+  background-image: url("../Assets/Images/works-1.png");
+  background-position-x: center;
+}
+
+a {
+  all: unset
+}
+
+a:hover {
   cursor: pointer
 }
 
-/*!For debug only*/
+.hover-cursor-pointer {
+  cursor: pointer;
+}
+.hover-cursor-pointer:hover{
+  color:#E0E0E0
+}
+.hover-cursor-pointer:active{
+  color:#C0C0C0
+}
+
+/*!For debug only!*/
 /* *{border:1px solid red} */
