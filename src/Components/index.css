@@ -113,23 +113,46 @@
   background-position-x: center;
 }
 
+.bg-clients-1 {
+  background-image: url("../Assets/Images/works-1.png");
+  background-position: right;
+}
+
+.bg-clients-2 {
+  background-image: url("../Assets/Images/works-2.png");
+  background-position: center;
+}
+
+.bg-clients-3 {
+  background-image: url("../Assets/Images/works-3.png");
+  background-position: right;
+}
+
+.bg-clients-4 {
+  background-image: url("../Assets/Images/works-4.png");
+  background-position: center;
+}
+
 a {
   all: unset
 }
 
 a:hover {
-  cursor: pointer
+  cursor: pointer;
 }
 
 .hover-cursor-pointer {
   cursor: pointer;
 }
-.hover-cursor-pointer:hover{
-  color:#E0E0E0
+
+.hover-cursor-pointer:hover {
+  color: #E0E0E0
 }
-.hover-cursor-pointer:active{
-  color:#C0C0C0
+
+.hover-cursor-pointer:active {
+  color: #C0C0C0
 }
+
 
 /*!For debug only!*/
 /* *{border:1px solid red} */

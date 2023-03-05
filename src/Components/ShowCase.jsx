@@ -30,7 +30,7 @@ const ShowCase = () => {
           <Typography
             variant='h3'
             sx={{ color: colors.grey[50] }}>
-            Last works
+            Our works
           </Typography>
 
           <Button
