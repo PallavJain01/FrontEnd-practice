@@ -25,7 +25,7 @@ const PricingTable = () => {
           pt: 2,
           width: 600
         }}>
-        Startup ramework is free forever - you only pay for custom domain hosting or to export your site.
+        Startup framework is free forever - you only pay for custom domain hosting or to export your site.
       </Typography>
 
       <Stack
