@@ -18,25 +18,21 @@ const App = () => {
         <Features />
       </section>
 
-      <section className='section' id="PricingTable">
-        <PricingTable />
+      <section className='section' id="Form">
+        <Form />
       </section>
 
       <section className='section' id="CallToAction">
         <CallToAction />
       </section>
 
-      <section className='section' id="Form">
-        <Form />
+      <section className='section' id="PricingTable">
+        <PricingTable />
       </section>
 
-      {
-        //TODO: signup, login and contact forms
-      }
-
-      {/* <section className='section' id="Contact">
-      <Contact />
-    </section> */}
+      <section className='section' id="Testimonial">
+        <Testimonial />
+      </section>
 
       <section className='section' id="ShowCase">
         <ShowCase />
@@ -46,9 +42,13 @@ const App = () => {
         <Team />
       </section>
 
-      <section className='section' id="Testimonial">
-        <Testimonial />
-      </section>
+      {
+        //TODO: signup, login and contact forms
+      }
+
+      {/* <section className='section' id="Contact">
+      <Contact />
+    </section> */}
 
       <section id="Footer">
         <Footer />
