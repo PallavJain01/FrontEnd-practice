@@ -4,4 +4,4 @@
 
 #### My Choices from the designs: [Here](https://www.figma.com/file/nuw9CtRpRXnJfyrzBZrNfM/FrontEnd-Practice?node-id=0%3A1&t=dXQqnDOkfCRVmizY-0)
 
-## [Link](https://www.pallav-frontend-practice.netlify.app) to deployed website.
+## [Link](https://pallav-frontend-practice.netlify.app) to deployed website.
