@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 
-import { colors, Stack, Typography } from '@mui/material';
+import { colors, Stack, Typography, Box} from '@mui/material';
 import { ContentCopyOutlined, DiamondOutlined } from '@mui/icons-material'
 
 const Features = () => {
@@ -12,7 +12,7 @@ const Features = () => {
         className='fitHeight fitWidth center'
         sx={{
           color: colors.grey[50],
-          pt: 27.5,
+          pt: 27.5,ml:5
         }}>
         We Create Something New
       </Typography>
@@ -21,8 +21,7 @@ const Features = () => {
         className='fitHeight fitWidth center'
         sx={{
           color: colors.grey[200],
-          pt: 4,
-          pl: 4,
+          pt: 4,pl: 15,
           width: 600,
           textAlign: 'left',
         }}
@@ -35,8 +34,7 @@ const Features = () => {
           letterSpacing={1.5}
           sx={{
             color: colors.grey[300],
-            pt: 7.5,
-            ml: 80,
+            pt: 7.5,ml: 86,
           }}>
           <ContentCopyOutlined />
           <br />
@@ -54,8 +52,7 @@ const Features = () => {
           letterSpacing={.5}
           sx={{
             color: colors.grey[300],
-            pt: 7.5,
-            ml: 10,
+            pt: 7.5,ml: 10,
           }}>
           <DiamondOutlined />
           <br />
@@ -66,6 +63,18 @@ const Features = () => {
             Samples will show you the feeling on how to play around using the components</Typography>
 
         </Typography>
+          <Box
+          className='bg-works-2 box-1'
+          sx={{
+            width:500,
+            height:575,
+            backgroundSize:'cover',
+            ml:-175,mt:-30,
+            borderRadius:5,
+            border:'5px solid'+colors.deepPurple[300]+'E0',
+            borderTop:'none',borderRight:'none'
+          }}>
+          </Box>
       </Stack>
     </>
   )

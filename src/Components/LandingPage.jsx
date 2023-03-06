@@ -1,5 +1,6 @@
-import { Button, colors, Typography } from '@mui/material'
 import React from 'react'
+
+import { Button, colors, Typography } from '@mui/material'
 
 const LandingPage = () => {
   return (
@@ -8,9 +9,10 @@ const LandingPage = () => {
         sx={{
           color: colors.grey[50],
           fontWeight: 500,
-          marginY: 20
+          marginY: 20,
+          mx:'auto'
         }}
-        className="fitWidth center">
+        className="fitWidth">
         Startup 3</Typography>
 
       <Typography variant="h1"
@@ -26,7 +28,7 @@ const LandingPage = () => {
         sx={{
           color: colors.grey[50],
           fontWeight: 400,
-          width: '40vw',
+          maxWidth: 750,
           textAlign: 'center',
           marginY: 25
         }}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Box, Button, colors, Stack, Typography } from '@mui/material'
+import { Box, colors, Typography } from '@mui/material'
 
 const SignUp = () => {
   return (
@@ -37,7 +37,22 @@ const Form = () => {
           lineHeight: 1.5
         }}>
         We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.
+        <Box
+        className='bg-formPage'
+        sx={{
+          backgroundSize:'cover',
+          width:500,
+          height:550,
+          borderRadius:2.5,
+          ml:100,mt:-55,
+          border:'5px solid'+colors.deepPurple[300]+'E0',
+          borderTop:'none',borderLeft:'none'
+        }}>
+
+        </Box>
       </Typography>
+
+
     </>
   )
 }

@@ -86,7 +86,7 @@ const Team = () => {
 
         </Stack></ListItem>
       </List>
-
+        <hr color='#b388ff' />
     </>
   )
 }

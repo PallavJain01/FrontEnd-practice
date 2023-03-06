@@ -29,6 +29,8 @@
   height: 100vh;
   width: 99.2vw;
   background-size: cover;
+  background-repeat: repeat-x;
+
 }
 
 #Navbar {
@@ -74,6 +76,10 @@
 #Footer {
   width: 99.2vw;
   height: 20vh;
+}
+
+.bg-formPage {
+  background-image: url('../Assets/Images/Screen.png');
 }
 
 .bg-works-1 {
